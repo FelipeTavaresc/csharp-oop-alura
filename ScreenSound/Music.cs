@@ -2,17 +2,17 @@
 {
     class Music
     {
-        public string name;
-        public string artist;
-        public int durationTime;
+        public string Name { get; set; }
+        public string Artist { get; set; }
+        public int DurationTime { get; set; }
         public bool Available { get; set; }
 
 
         public void ShowMusicInfo()
         {
-            Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Artist: {artist}");
-            Console.WriteLine($"Duration time: {durationTime}");
+            Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Artist: {Artist}");
+            Console.WriteLine($"Duration time: {DurationTime}");
             if (Available)
                 Console.WriteLine("Available");
             else
