@@ -6,6 +6,7 @@
         public string Artist { get; set; }
         public int DurationTime { get; set; }
         public bool Available { get; set; }
+        public string FullName { get; set; }
 
 
         public void ShowMusicInfo()
