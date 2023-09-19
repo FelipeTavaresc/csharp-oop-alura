@@ -1,6 +1,6 @@
 ﻿namespace ScreenSound
 {
-    class Music
+    public class Music
     {
         public string Name { get; set; }
         public string Artist { get; set; }

@@ -1,16 +1,14 @@
 ﻿using ScreenSound;
 
+Album queenAlbum = new Album();
+queenAlbum.Name = "A night at the opera";
+
 Music music1 = new Music();
-music1.Name = "Roxane";
-music1.Artist = "The Police";
-music1.DurationTime = 270;
-music1.Available = true;
+music1.Name = "Love of my life";
 
 Music music2 = new Music();
-music2.Name = "Vertigo";
-music2.Artist = "U2";
-music2.DurationTime = 350;
-music2.Available = false;
+music1.Name = "Bohemian Rhapsody";
 
-music1.ShowMusicInfo();
-music2.ShowMusicInfo();
+queenAlbum.AddMusic(music1);
+queenAlbum.AddMusic(music2);
+
