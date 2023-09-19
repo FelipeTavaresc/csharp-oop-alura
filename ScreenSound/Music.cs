@@ -7,6 +7,7 @@
         public int DurationTime { get; set; }
         public bool Available { get; set; }
         public string Description => $"A música {Name} pertence à banda {Artist}";
+        public Genre Genre { get; set; }
 
         public void ShowMusicInfo()
         {
