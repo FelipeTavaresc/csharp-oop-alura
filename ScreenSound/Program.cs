@@ -13,4 +13,8 @@ music2.DurationTime = 354;
 
 queenAlbum.AddMusic(music1);
 queenAlbum.AddMusic(music2);
-queenAlbum.ShowMusicAlbum();
+
+Band band = new Band();
+band.Name = "Queen";
+band.AddAlbum(queenAlbum);
+band.ShowDiscography();
