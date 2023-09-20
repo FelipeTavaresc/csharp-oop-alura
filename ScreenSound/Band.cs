@@ -1,6 +1,6 @@
 using ScreenSound;
 
-class Band
+public class Band
 {
     private List<Album> albums = new List<Album>();
 
